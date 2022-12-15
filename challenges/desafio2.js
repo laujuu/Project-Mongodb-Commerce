@@ -2,7 +2,7 @@ db.produtos.find(
     {},
     {
         _id: false,
-        nome: true,
-        vendidos: true,
+        nome: 1,
+        vendidos: 1,
     },
 ).sort({ vendidos: 1 });
